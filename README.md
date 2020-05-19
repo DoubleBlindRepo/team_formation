@@ -1,7 +1,7 @@
 # Team Formation 
 *[Github Link](https://github.com/DoubleBlindRepo/team_formation)
 <p align="center">
-  <img width="460" height="300" src="https://imgur.com/1W5Y4fU">
+  <img width="460" height="300" src="https://i.imgur.com/1W5Y4fU.png">
 </p>
 
 We focus on the composition of teams of experts that collectively cover a set of required skills based on their historical collaboration network and expertise. Prior works are primarily based on the shortest path between experts on the expert collaboration network,and suffer from three major shortcomings: 
@@ -60,10 +60,10 @@ Evaluation of predicted files is done these metrics:
 - MRR @k
 
 In order to evaluate predicted oputputs, you need to run the 
-[comparison.py](/eval/comparison.py)  file in [eval](https://github.com/DoubleBlindRepo/team_formation/blob/master/eval) directory will calculate metrics for each model and will save the scores in the [output](https://github.com/DoubleBlindRepo/team_formation/tree/master/output) 
+[comparison.py](/eval/comparison.py)  file in [eval](/eval) directory will calculate metrics for each model and will save the scores in the [output](/output) 
  directory in ".csv" format.  
 <p align="center">
-  <img width="320" height="140" src="/readme_pics/vnn_baselines.png">
+  <img width="320" height="140" src="https://i.imgur.com/993AYVt.png">
 </p>
 
 
@@ -71,7 +71,7 @@ In order to evaluate predicted oputputs, you need to run the
 Help Hurt diagram needs comparison of two methods. Therefore, a script [(HelpHurt.py)](/eval/HelpHurt.py) has been written for this matter. You can find this file in run the [eval](/eval) directory. After finishing the process result will be saved as a ".csv" file and is accessible in [output](/output) directory.
 
 <p align="center">
-  <img width="320" height="100" src="/readme_pics/help_hurt.png">
+  <img width="320" height="100" src="https://i.imgur.com/w1qssZQ.png">
 </p>
 
 
