@@ -1,7 +1,7 @@
 # Team Formation 
 *[Github Link](https://github.com/DoubleBlindRepo/team_formation)
 <p align="center">
-  <img width="460" height="300" src="https://anonymous.4open.science/repository/b8584256-b23a-42a1-8e8b-b901826c475c/readme_pics/vBnn.png">
+  <img width="460" height="300" src="/readme_pics/vBnn.png">
 </p>
 
 We focus on the composition of teams of experts that collectively cover a set of required skills based on their historical collaboration network and expertise. Prior works are primarily based on the shortest path between experts on the expert collaboration network,and suffer from three major shortcomings: 
