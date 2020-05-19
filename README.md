@@ -30,7 +30,7 @@ Keras
 NLTK
 ```
 ### Dataset
-We choose DBLP as the benchmark. We consider each author to represent an expert and the authors of each publication to form a team. Presumably publication keywords would be reflective of the skills required for publishing the article. But, often publications in DBLP are not associated with keywords. Thus, we form the skill set S from the set of keywords extracted from the title of the publications. You can download dataset from this [here](https://lfs.aminer.cn/lab-datasets/citation/DBLP_citation_Sep_2013.rar). Downloaded dataset should be moved to [dataset](https://github.com/DoubleBlindRepo/team_formation/tree/master/dataset) folder of the repository.
+We choose DBLP as the benchmark. We consider each author to represent an expert and the authors of each publication to form a team. Presumably publication keywords would be reflective of the skills required for publishing the article. But, often publications in DBLP are not associated with keywords. Thus, we form the skill set S from the set of keywords extracted from the title of the publications. You can download dataset from this [here](https://lfs.aminer.cn/lab-datasets/citation/DBLP_citation_Sep_2013.rar). Downloaded dataset should be moved to [dataset](https://github.com/DoubleBlindRepo/team_formation/dataset) folder of the repository.
 
 ### Preprccessing
 
@@ -60,7 +60,7 @@ Evaluation of predicted files is done these metrics:
 - MRR @k
 
 In order to evaluate predicted oputputs, you need to run the 
-[comparison.py](https://github.com/DoubleBlindRepo/team_formation/tree/master/eval/comparison.py)  file in [eval](https://github.com/DoubleBlindRepo/team_formation/tree/master/eval) directory will calculate metrics for each model and will save the scores in the [output](https://github.com/DoubleBlindRepo/team_formation/tree/master/output) 
+[comparison.py](https://github.com/DoubleBlindRepo/team_formation/eval/comparison.py)  file in [eval](https://github.com/DoubleBlindRepo/team_formation/eval) directory will calculate metrics for each model and will save the scores in the [output](https://github.com/DoubleBlindRepo/team_formation/output) 
  directory in ".csv" format.  
 <p align="center">
   <img width="320" height="140" src="https://i.imgur.com/993AYVt.png">
@@ -68,7 +68,7 @@ In order to evaluate predicted oputputs, you need to run the
 
 
 ### Help-Hurt Plot
-Help Hurt diagram needs comparison of two methods. Therefore, a script [(HelpHurt.py)](https://github.com/DoubleBlindRepo/team_formation/tree/master/eval/HelpHurt.py) has been written for this matter. You can find this file in run the [eval](https://github.com/DoubleBlindRepo/team_formation/tree/master/eval) directory. After finishing the process result will be saved as a ".csv" file and is accessible in [output](https://github.com/DoubleBlindRepo/team_formation/tree/master/output) directory.
+Help Hurt diagram needs comparison of two methods. Therefore, a script [(HelpHurt.py)](https://github.com/DoubleBlindRepo/team_formation/eval/HelpHurt.py) has been written for this matter. You can find this file in run the [eval](https://github.com/DoubleBlindRepo/team_formation/eval) directory. After finishing the process result will be saved as a ".csv" file and is accessible in [output](https://github.com/DoubleBlindRepo/team_formation/output) directory.
 
 <p align="center">
   <img width="320" height="100" src="https://i.imgur.com/w1qssZQ.png">
