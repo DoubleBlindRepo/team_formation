@@ -1,5 +1,4 @@
 # Team Formation 
-*[Github Link](https://github.com/DoubleBlindRepo/team_formation)
 <p align="center">
   <img width="460" height="300" src="https://i.imgur.com/1W5Y4fU.png">
 </p>
